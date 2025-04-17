@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rhopp-go-azure-repository
+spec:
+  url: https://github.com/rhopp-rhtap-testing/rhopp-go-azure
